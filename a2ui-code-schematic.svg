@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 1240" width="1280" height="1240">
+<style>text{font-family:"PingFang SC","Microsoft YaHei","Helvetica Neue",sans-serif}</style>
+<defs><marker id="arrow" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto"><polygon points="0 0,10 3.5,0 7" fill="#6b7280"/></marker></defs>
+<rect x="0" y="0" width="1280" height="1240" rx="0" fill="#f8fafc" stroke="#f8fafc" />
+<text x="48" y="58" font-size="30" fill="#111827" font-weight="600">代码里的 A2UI，实际投影成什么</text>
+<text x="48" y="94" font-size="15" fill="#6b7280" font-weight="400">依据 projectAsk / userdecision.Card 的真实 JSON；布局示意，非钉钉客户端截图。</text>
+<text x="48" y="122" font-size="14" fill="#2563eb" font-weight="400">代码事实：单选也是 checkbox 外观；选人是原生 UserPicker；选项描述单独列在选择器前。</text>
+<text x="48" y="160" font-size="18" fill="#111827" font-weight="600">单选澄清</text>
+<rect x="48" y="182" width="576" height="366" rx="8" fill="#fff" stroke="#d1d5db" />
+<text x="70" y="214" font-size="14" fill="#111827" font-weight="600">确认资料范围</text>
+<text x="70" y="240" font-size="14" fill="#111827" font-weight="400">先整理哪一部分资料？</text>
+<text x="70" y="266" font-size="12" fill="#6b7280" font-weight="400">员工手册 · 制度说明与入职须知</text>
+<text x="70" y="287" font-size="12" fill="#6b7280" font-weight="400">办公流程 · 请假、报销与用品申请</text>
+<rect x="70" y="298" width="14" height="14" rx="3" fill="#fff" stroke="#d1d5db" />
+<text x="93" y="310" font-size="14" fill="#111827" font-weight="400">员工手册</text>
+<rect x="70" y="330" width="14" height="14" rx="3" fill="#fff" stroke="#d1d5db" />
+<text x="93" y="342" font-size="14" fill="#111827" font-weight="400">办公流程</text>
+<text x="70" y="372" font-size="12" fill="#6b7280" font-weight="400">补充一句（可以不写）</text>
+<rect x="70" y="384" width="532" height="34" rx="8" fill="#fff" stroke="#d1d5db" />
+<rect x="420" y="428" width="70" height="33" rx="8" fill="#fff" stroke="#fff" />
+<text x="431" y="449" font-size="13" fill="#6b7280" font-weight="400">先不选</text>
+<rect x="502" y="428" width="100" height="33" rx="6" fill="#2563eb" stroke="#2563eb" />
+<text x="514" y="449" font-size="13" fill="#fff" font-weight="400">确认</text>
+<text x="70" y="525" font-size="12" fill="#6b7280" font-weight="400">mutuallyExclusive + checkbox</text>
+<text x="656" y="160" font-size="18" fill="#111827" font-weight="600">多选澄清</text>
+<rect x="656" y="182" width="576" height="366" rx="8" fill="#fff" stroke="#d1d5db" />
+<text x="678" y="214" font-size="14" fill="#111827" font-weight="600">欢迎内容</text>
+<text x="678" y="240" font-size="14" fill="#111827" font-weight="400">欢迎消息重点介绍哪些内容？</text>
+<rect x="678" y="256" width="14" height="14" rx="3" fill="#fff" stroke="#d1d5db" />
+<text x="701" y="268" font-size="14" fill="#111827" font-weight="400">请假与考勤</text>
+<rect x="678" y="288" width="14" height="14" rx="3" fill="#fff" stroke="#d1d5db" />
+<text x="701" y="300" font-size="14" fill="#111827" font-weight="400">费用报销</text>
+<rect x="678" y="320" width="14" height="14" rx="3" fill="#fff" stroke="#d1d5db" />
+<text x="701" y="332" font-size="14" fill="#111827" font-weight="400">办公与协作</text>
+<text x="678" y="362" font-size="12" fill="#6b7280" font-weight="400">补充一句（可以不写）</text>
+<rect x="678" y="374" width="532" height="34" rx="8" fill="#fff" stroke="#d1d5db" />
+<rect x="1028" y="418" width="70" height="33" rx="8" fill="#fff" stroke="#fff" />
+<text x="1039" y="439" font-size="13" fill="#6b7280" font-weight="400">先不选</text>
+<rect x="1110" y="418" width="100" height="33" rx="6" fill="#2563eb" stroke="#2563eb" />
+<text x="1122" y="439" font-size="13" fill="#fff" font-weight="400">就这些</text>
+<text x="678" y="525" font-size="12" fill="#6b7280" font-weight="400">multipleSelection + checkbox</text>
+<text x="48" y="598" font-size="18" fill="#111827" font-weight="600">选人澄清</text>
+<rect x="48" y="620" width="576" height="366" rx="8" fill="#fff" stroke="#d1d5db" />
+<text x="70" y="652" font-size="14" fill="#111827" font-weight="600">确认接收人</text>
+<text x="70" y="678" font-size="14" fill="#111827" font-weight="400">这份入职资料要交给哪位李明？</text>
+<text x="70" y="704" font-size="13" fill="#111827" font-weight="400">选择同事</text>
+<rect x="70" y="720" width="532" height="40" rx="8" fill="#f9fafb" stroke="#d1d5db" />
+<text x="84" y="745" font-size="14" fill="#9ca3af" font-weight="400">搜一个名字</text>
+<text x="562" y="745" font-size="18" fill="#6b7280" font-weight="400">⌄</text>
+<rect x="420" y="775" width="70" height="33" rx="8" fill="#fff" stroke="#fff" />
+<text x="431" y="796" font-size="13" fill="#6b7280" font-weight="400">先不选</text>
+<rect x="502" y="775" width="100" height="33" rx="6" fill="#2563eb" stroke="#2563eb" />
+<text x="514" y="796" font-size="13" fill="#fff" font-weight="400">发给这个人</text>
+<text x="70" y="963" font-size="12" fill="#6b7280" font-weight="400">UserPicker · maxSelections = 1</text>
+<text x="70" y="825" font-size="13" fill="#6b7280" font-weight="400">当前投影不接收冻结候选列表。</text>
+<text x="70" y="848" font-size="13" fill="#6b7280" font-weight="400">具体搜索面板由钉钉客户端渲染，图中不虚构搜索结果。</text>
+<text x="656" y="598" font-size="18" fill="#111827" font-weight="600">审批确认</text>
+<rect x="656" y="620" width="576" height="366" rx="8" fill="#fff" stroke="#d1d5db" />
+<text x="678" y="652" font-size="14" fill="#111827" font-weight="600">待审批</text>
+<text x="678" y="678" font-size="14" fill="#111827" font-weight="400">将这条口径发布为企业共享知识？</text>
+<rect x="678" y="694" width="14" height="14" rx="3" fill="#fff" stroke="#d1d5db" />
+<text x="701" y="706" font-size="14" fill="#111827" font-weight="400">同意</text>
+<rect x="678" y="726" width="14" height="14" rx="3" fill="#fff" stroke="#d1d5db" />
+<text x="701" y="738" font-size="14" fill="#111827" font-weight="400">驳回</text>
+<text x="678" y="768" font-size="12" fill="#6b7280" font-weight="400">补充一句（可以不写）</text>
+<rect x="678" y="780" width="532" height="34" rx="8" fill="#fff" stroke="#d1d5db" />
+<rect x="1028" y="824" width="70" height="33" rx="8" fill="#fff" stroke="#fff" />
+<text x="1039" y="845" font-size="13" fill="#6b7280" font-weight="400">先不选</text>
+<rect x="1110" y="824" width="100" height="33" rx="6" fill="#2563eb" stroke="#2563eb" />
+<text x="1122" y="845" font-size="13" fill="#fff" font-weight="400">提交</text>
+<text x="678" y="963" font-size="12" fill="#6b7280" font-weight="400">ChoicePicker → 同意 / 驳回 → 提交</text>
+<text x="48" y="1022" font-size="16" fill="#111827" font-weight="600">接续关系 · 虚线部分为本次方案，服务尚未接线</text>
+<rect x="48" y="1046" width="328" height="48" rx="8" fill="#fff" stroke="#9ca3af" stroke-dasharray="5 3"/>
+<text x="64" y="1070" font-size="14" fill="#111827" font-weight="600">卡片提交</text>
+<text x="64" y="1088" font-size="12" fill="#6b7280" font-weight="400">runtime.clarification.submit</text>
+<rect x="48" y="1114" width="328" height="48" rx="8" fill="#fff" stroke="#9ca3af" stroke-dasharray="5 3"/>
+<text x="64" y="1138" font-size="14" fill="#111827" font-weight="600">普通聊天文字</text>
+<text x="64" y="1156" font-size="12" fill="#6b7280" font-weight="400">可以不点卡片，继续说要求</text>
+<rect x="520" y="1070" width="306" height="70" rx="8" fill="#fff" stroke="#9ca3af" stroke-dasharray="5 3"/>
+<text x="536" y="1094" font-size="14" fill="#111827" font-weight="600">同一问题受理</text>
+<text x="536" y="1112" font-size="12" fill="#6b7280" font-weight="400">校验身份、场域、问题与输入版本</text>
+<rect x="952" y="1070" width="280" height="70" rx="8" fill="#fff" stroke="#9ca3af" stroke-dasharray="5 3"/>
+<text x="968" y="1094" font-size="14" fill="#111827" font-weight="600">继续处理</text>
+<text x="968" y="1112" font-size="12" fill="#6b7280" font-weight="400">Employee 继续 / Pi 全新下一轮</text>
+<path d="M376 1070 H440 V1105 H520" fill="none" stroke="#6b7280" stroke-width="1.5" stroke-dasharray="4 3" marker-end="url(#arrow)"/>
+<path d="M376 1138 H440 V1105" fill="none" stroke="#6b7280" stroke-width="1.5" stroke-dasharray="4 3" marker-end="url(#arrow)"/>
+<path d="M826 1105 H952" fill="none" stroke="#6b7280" stroke-width="1.5" stroke-dasharray="4 3" marker-end="url(#arrow)"/>
+<rect x="466" y="1076" width="40" height="21" rx="0" fill="#f8fafc" stroke="#f8fafc" />
+<text x="470" y="1091" font-size="12" fill="#6b7280" font-weight="400">输入</text>
+<rect x="875" y="1080" width="40" height="21" rx="0" fill="#f8fafc" stroke="#f8fafc" />
+<text x="879" y="1095" font-size="12" fill="#6b7280" font-weight="400">推进</text>
+<text x="48" y="1200" font-size="13" fill="#6b7280" font-weight="400">loading：当前投影没有该组件；引用回复 + 随机短文案 + loading 仍需独立接线。</text>
+</svg>

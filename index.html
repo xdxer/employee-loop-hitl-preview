@@ -16,10 +16,12 @@
 body.compact .frame{max-width:1120px}body.compact .workspace{display:block;max-width:720px;margin:0 auto 38px}body.compact .scenario-nav,body.compact .inspector,body.compact .intro-aside{display:none}body.compact .intro{max-width:720px;margin:auto;padding:30px 0 22px}body.compact .intro h1{font-size:25px;letter-spacing:-.5px}body.compact .intro p{font-size:12px}body.compact .intro .eyebrow{display:none}body.compact .chat-shell{box-shadow:none;border-radius:10px}body.compact .chat-body{min-height:320px;padding:25px 22px}body.compact .phase-strip,body.compact .demo-console-top,body.compact #console-note{display:none}body.compact .demo-console{padding:11px 18px;background:#fff}body.compact .demo-console-buttons{justify-content:flex-end}body.compact #advance{background:#fff;color:var(--muted);border-color:var(--line);font-weight:400}body.compact .message-content{max-width:520px}body.compact .chat-head .pill{display:none}.inline-reply{max-width:520px;font-size:13px}.inline-reply blockquote{margin:0 0 11px;padding:8px 11px;background:#f0f3f7;border-left:2px solid #c3ccd9;border-radius:0 5px 5px 0;color:#7b8697;font-size:11px;line-height:1.6}.inline-reply blockquote span{display:block;font-size:10px;color:#8b96a6;margin-bottom:2px}.a2ui-loading{display:flex;align-items:center;gap:8px;min-height:23px;color:#7a8698;font-size:12px;padding:0 2px}.loading-ring{width:12px;height:12px;border:1.6px solid #d5ddea;border-top-color:#6a89bf;border-radius:50%;animation:loading-spin .85s linear infinite;display:inline-block;flex:none}.inline-result{margin:9px 0;color:var(--ink);line-height:1.8;font-size:13px}@keyframes loading-spin{to{transform:rotate(360deg)}}@media(max-width:640px){body.compact .chat-body{min-height:285px;padding:20px 14px}body.compact .intro h1{font-size:23px}.inline-reply blockquote{font-size:11px}.a2ui-loading{font-size:12px}}@media(prefers-reduced-motion:reduce){.loading-ring{animation:none}}
 
 .chat-composer{border-top:1px solid var(--line);background:#fff;padding:13px 18px}.chat-composer label{display:block;font-size:11px;color:var(--muted);margin-bottom:7px}.composer-row{display:flex;align-items:end;gap:9px}.composer-row textarea{min-width:0;flex:1;resize:vertical;min-height:43px;max-height:110px;padding:10px 11px;border:1px solid var(--line);border-radius:7px;font-size:12px}.composer-row .btn{min-height:42px}.origin-switch{display:flex;gap:7px;align-items:center;flex-wrap:wrap;font-size:10px;color:var(--muted);margin-top:10px}.origin-switch .active{background:var(--blue-soft);border-color:#a8bff0;color:var(--blue)}.chat-input-note{font-size:10px;color:var(--muted);margin-top:7px}.raw-human-input{margin-top:12px;padding:9px 11px;background:#f7f9fc;border-radius:7px;font-size:11px;color:var(--muted)}.raw-human-input strong{display:block;color:var(--ink);font-weight:500;margin-bottom:4px}
+
+.code-figure{margin:0 0 28px;border:1px solid var(--line);border-radius:10px;overflow:hidden;background:#f8fafc}.code-figure svg{display:block;width:100%;height:auto}.code-layout{display:grid;grid-template-columns:minmax(320px,1fr) minmax(320px,1fr);gap:24px}.code-playground{border:1px solid var(--line);border-radius:10px;background:#fff;padding:22px}.code-playground select{width:100%;padding:10px;margin:0 0 18px;border:1px solid var(--line);border-radius:6px;background:#fff}.code-projection{border:1px solid var(--line);border-radius:8px;padding:20px;max-width:520px;margin:0 auto;font-size:14px}.cp-column{display:flex;flex-direction:column;gap:8px;align-items:stretch}.cp-row{display:flex;gap:8px;justify-content:flex-end;align-items:center}.cp-title{font-weight:700}.cp-caption{color:#6b7280;font-size:12px}.cp-choices{display:grid;gap:8px}.cp-option{display:flex;gap:10px;align-items:center;padding:3px 0;cursor:pointer}.cp-option input{width:15px;height:15px;accent-color:#2563eb}.cp-field{display:flex;flex-direction:column;gap:8px;margin:5px 0}.cp-field span{font-size:12px;color:#6b7280}.cp-field input{height:37px;border:1px solid #d1d5db;border-radius:6px;padding:8px;font-size:13px;width:100%;min-width:0}.cp-button{padding:8px 14px;background:#2563eb;color:white;border:0;border-radius:6px;font-size:13px}.cp-button.borderless{background:none;color:#6b7280}.cp-native{background:#f9fafb;border:1px solid #d1d5db;border-radius:6px;padding:12px;color:#9ca3af;width:100%;text-align:left}.code-note{font-size:12px;color:var(--muted);margin:16px 0 0;line-height:1.9}.code-json{font:11px/1.8 var(--mono);white-space:pre-wrap;overflow-wrap:anywhere;padding:18px;background:#152238;color:#d5e0f3;border-radius:8px;max-height:460px;overflow:auto}.code-evidence{font-size:11px;color:var(--muted);margin:0 0 16px}.code-output{padding:12px;background:#f5f8fc;border-radius:6px;white-space:pre-wrap;overflow-wrap:anywhere;font:11px/1.8 var(--mono);margin-top:15px}.code-gallery summary{cursor:pointer;font-size:15px;font-weight:600;padding:18px 0}@media(max-width:760px){.code-layout{grid-template-columns:1fr}.code-playground{padding:15px}.code-projection{padding:15px}}
 </style>
 </head>
 <body class="compact">
-<header class="masthead"><div class="frame"><div class="topbar"><a class="brand" href="#" aria-label="Employee Loop 人工交互方案首页"><span class="brand-symbol" aria-hidden="true">↳</span><span>Tag · 人工澄清 <small>PI / A2UI</small></span></a><span class="top-spacer"></span><span class="pill amber">方案预览 · 演示数据</span></div><nav class="tabs" aria-label="预览内容"><button class="tab active" data-tab="scenes" aria-current="page">场景演示</button><button class="tab" data-tab="styles">交互样式</button><button class="tab" data-tab="architecture">技术架构</button><button class="tab" data-tab="delivery">实施与验收</button></nav></div></header>
+<header class="masthead"><div class="frame"><div class="topbar"><a class="brand" href="#" aria-label="Employee Loop 人工交互方案首页"><span class="brand-symbol" aria-hidden="true">↳</span><span>Tag · 人工澄清 <small>PI / A2UI</small></span></a><span class="top-spacer"></span><span class="pill amber">方案预览 · 演示数据</span></div><nav class="tabs" aria-label="预览内容"><button class="tab" data-tab="code">代码示意图</button><button class="tab active" data-tab="scenes" aria-current="page">场景演示</button><button class="tab" data-tab="styles">交互样式</button><button class="tab" data-tab="architecture">技术架构</button><button class="tab" data-tab="delivery">实施与验收</button></nav></div></header>
 <main class="frame">
 <section id="pane-scenes" class="pane"><div class="intro"><div class="intro-copy"><div class="eyebrow">A2UI × HUMAN IN THE LOOP</div><h1>引用回复 + 一行 loading。</h1><p>按钮是快捷输入，也可以直接打字补充或改变要求。Employee询问、任务轮末询问都能接着聊。</p></div><aside class="intro-aside"><strong>人的体验与系统事实，同时看。</strong>左侧切场景，中间操作卡片。<br>右侧观察场域绑定、等待与恢复。</aside></div>
 <div class="workspace"><aside class="scenario-nav" aria-label="选择演示场景"><div class="side-label">首批四个场景</div><button class="scenario-btn active" data-scenario="receipt"><span class="scenario-icon">↳</span><span><strong>收到就响应</strong><span class="desc">引用 → loading → 结果</span></span></button><button class="scenario-btn" data-scenario="person"><span class="scenario-icon">◎</span><span><strong>同名，需要选人</strong><span class="desc">冻结候选 · 确认身份</span></span></button><button class="scenario-btn" data-scenario="single"><span class="scenario-icon">◉</span><span><strong>单选澄清</strong><span class="desc">单选 · 确认整理重点</span></span></button><button class="scenario-btn" data-scenario="multiple"><span class="scenario-icon">☷</span><span><strong>选择欢迎内容</strong><span class="desc">多选 · 最少一项</span></span></button><div class="side-note"><b>所有操作仅在本页面演示。</b>不会发钉钉消息、修改知识库或执行任务。所示样式待真实 A2UI 客户端适配。</div></aside>
@@ -29,7 +31,100 @@ body.compact .frame{max-width:1120px}body.compact .workspace{display:block;max-w
 <section id="pane-styles" class="pane panel" hidden><div class="section-header"><div><div class="eyebrow">COMPONENT LANGUAGE</div><h2>让每一种决定，都有清楚的样式。</h2><p>共用布局与状态语言，按输入类型表达不同约束。按钮写出操作本身。</p></div><span class="pill">可在场景中试用</span></div><div class="card-grid" id="style-gallery"></div><p class="stage-caption">样式为产品原型。真实 A2UI 固定 catalog/schema，UserPicker 与移动端渲染须独立验收；不将浏览器截图当作钉钉兼容证明。</p></section>
 <section id="pane-architecture" class="pane panel" hidden><div class="section-header"><div><div class="eyebrow">DURABLE INTERACTION / PROPOSED</div><h2>响应走快路，恢复靠持久事实。</h2><p>同一个事件准入底座：先引用原消息并显示 loading，再推进业务与人工决策。点击节点查看职责。</p></div><span class="pill amber">接入方案 · 待实现</span></div><div class="architecture-layout"><div class="arch-surface"><div class="path-tabs" aria-label="选择技术链路"><button class="path-tab active" data-path="ack">即时响应</button><button class="path-tab" data-path="sandbox">轮末结果与选择</button><button class="path-tab" data-path="answer">人工答复回流</button><button class="path-tab" data-path="recovery">下一轮独立执行</button></div><div id="path-sequence" class="path-sequence" aria-label="当前链路实际顺序"></div><div class="arch-grid" id="architecture-grid"></div><div class="arch-foot" id="architecture-foot"></div></div><aside class="technical-details" id="technical-details" aria-live="polite"></aside></div><div class="sequence"><h3>即时响应的时序与正确性</h3><div class="table-scroll"><table><thead><tr><th>时刻</th><th>Host / PG</th><th>用户看见</th><th>不能越过的边界</th></tr></thead><tbody><tr><td>消息到达</td><td>验来源、响应资格与租户</td><td>尚无业务承诺</td><td>无关群观察、自发消息不群发loading 回复</td></tr><tr><td>受理提交</td><td><code>receipt + owner + scene + ack_outbox</code></td><td>引用原消息 + loading</td><td>事务成功后才能发送；不等待 LLM</td></tr><tr><td>执行启动</td><td>原请求绑定 Task，真实 Run 领取</td><td>同卡更新为“正在处理”</td><td>没有执行事实就不能声称开始执行</td></tr><tr><td>需人工输入</td><td><code>interaction + mandatory wait + outbox</code></td><td>受权人看到具体问题</td><td>敏感审批另发受限 DM 卡；原群只见摘要</td></tr><tr><td>答复 / 结果</td><td>答案/恢复 intent 或终态回执提交</td><td>“已收到选择” → “继续中” → 结果</td><td>单调 revision；旧 update 不覆盖终态</td></tr></tbody></table></div></div><div class="architecture-notes"><article><h4>即时 ≠ 固定时延承诺</h4><p>Host 引用 loading 不增加 LLM 调用。provider 发送与客户端渲染仍要实测，原型中的推进按钮不代表线上 SLA。</p></article><article><h4>同一张卡，明确的发送方</h4><p>逻辑卡由 source receipt 定位；outbox 是唯一发送方。快结果可直接呈现最新状态，send_unknown 对账，不盲重发。</p></article><article><h4>不在沙箱里长时间等人</h4><p>Pi正常结束后再问。下一轮以保存的结果和选项重新启动，不做阻塞、暂停握手或旧session续写。</p></article></div></section>
 <section id="pane-delivery" class="pane panel" hidden><div class="section-header"><div><div class="eyebrow">TAG PRE / PI / ROUND-END CHOICES</div><h2>这一轮结束，再把选择交给人。</h2><p>默认方案：结果文案＋选项。人可点选，也可直接打字补充或改要求，两种来源共用同一受理。</p></div></div><div class="roadmap"><article><span class="sample-index">STEP 1</span><h3>正常结束，输出选项</h3><p>Pi不等人。最终结果可带summary与choice，Host在确认Run结束后展示。</p></article><article><span class="sample-index">STEP 2</span><h3>文字与按钮共用受理</h3><p>Employee问句、轮末问句统一q_ref。新输入可以答题、补充、改目标或聊新事；不能猜最近Task。</p></article><article><span class="sample-index">STEP 3</span><h3>下一轮重新启动</h3><p>原目标＋上轮结果与产物＋选择。新的Pi进程，不恢复旧session；已做效果不重做。</p></article><article><span class="sample-index">CHECK FIRST</span><h3>文字路径可自动E2E</h3><p>DWS普通发消息即可验正式文字路径。真卡仍需受权人或客户端；文字不冒充点击证据。</p></article></div><div class="sequence"><h3>首批12例，覆盖文字与按钮的小闭环</h3><div class="table-scroll"><table><thead><tr><th>要验什么</th><th>必须抓住的错误</th></tr></thead><tbody><tr><td>Run结束后才发文案＋选项</td><td>把任意Pi turn_end当执行结束；缺信息却宣称目标完成</td></tr><tr><td>单选、多选、同名人员</td><td>非法值、数量错误、显示名猜人</td></tr><tr><td>两轮独立Pi运行</td><td>依赖旧沙箱/session路径，重做已做副作用</td></tr><tr><td>来源/Task/场域、重复与停止</td><td>猜最近卡、双派、旧版或停止后继续</td></tr><tr><td>文字E2E、真实卡片与模拟证据分开</td><td>多问短答串题、闲聊全取消、无@没摄入当通过、文本冒充点击</td></tr><tr><td>随机反馈与loading收束</td><td>重投换句/重复发送，loading不结束</td></tr></tbody></table></div></div><div class="release-strip"><div><strong>运行中ask_human只作后续备选，不阻塞首批。</strong>本轮只更新设计与原型；服务结果字段、选择受理和下轮派发还需接线。</div></div></section>
-<footer class="footer"><span>Tag × Pi × A2UI · 2026-10-04 · 可离线打开，无外部依赖</span><div class="footer-links"><a href="#" onclick="document.querySelector('[data-tab=architecture]').click();return false">技术架构 ↗</a><a href="#" onclick="document.querySelector('[data-tab=delivery]').click();return false">验收计划 ↗</a></div></footer>
+<section id="pane-code" class="pane panel" hidden><div class="section-header"><div><div class="eyebrow">SOURCE → A2UI JSON → SCHEMATIC</div><h2>依据实际代码投影的示意图</h2><p>四类卡片来自当前 Go 投影，组件、顺序、字段和按钮文案按代码绘制。客户端外观仅作示意。</p></div></div><figure class="code-figure"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 1240" width="1280" height="1240">
+<style>text{font-family:"PingFang SC","Microsoft YaHei","Helvetica Neue",sans-serif}</style>
+<defs><marker id="arrow" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto"><polygon points="0 0,10 3.5,0 7" fill="#6b7280"/></marker></defs>
+<rect x="0" y="0" width="1280" height="1240" rx="0" fill="#f8fafc" stroke="#f8fafc" />
+<text x="48" y="58" font-size="30" fill="#111827" font-weight="600">代码里的 A2UI，实际投影成什么</text>
+<text x="48" y="94" font-size="15" fill="#6b7280" font-weight="400">依据 projectAsk / userdecision.Card 的真实 JSON；布局示意，非钉钉客户端截图。</text>
+<text x="48" y="122" font-size="14" fill="#2563eb" font-weight="400">代码事实：单选也是 checkbox 外观；选人是原生 UserPicker；选项描述单独列在选择器前。</text>
+<text x="48" y="160" font-size="18" fill="#111827" font-weight="600">单选澄清</text>
+<rect x="48" y="182" width="576" height="366" rx="8" fill="#fff" stroke="#d1d5db" />
+<text x="70" y="214" font-size="14" fill="#111827" font-weight="600">确认资料范围</text>
+<text x="70" y="240" font-size="14" fill="#111827" font-weight="400">先整理哪一部分资料？</text>
+<text x="70" y="266" font-size="12" fill="#6b7280" font-weight="400">员工手册 · 制度说明与入职须知</text>
+<text x="70" y="287" font-size="12" fill="#6b7280" font-weight="400">办公流程 · 请假、报销与用品申请</text>
+<rect x="70" y="298" width="14" height="14" rx="3" fill="#fff" stroke="#d1d5db" />
+<text x="93" y="310" font-size="14" fill="#111827" font-weight="400">员工手册</text>
+<rect x="70" y="330" width="14" height="14" rx="3" fill="#fff" stroke="#d1d5db" />
+<text x="93" y="342" font-size="14" fill="#111827" font-weight="400">办公流程</text>
+<text x="70" y="372" font-size="12" fill="#6b7280" font-weight="400">补充一句（可以不写）</text>
+<rect x="70" y="384" width="532" height="34" rx="8" fill="#fff" stroke="#d1d5db" />
+<rect x="420" y="428" width="70" height="33" rx="8" fill="#fff" stroke="#fff" />
+<text x="431" y="449" font-size="13" fill="#6b7280" font-weight="400">先不选</text>
+<rect x="502" y="428" width="100" height="33" rx="6" fill="#2563eb" stroke="#2563eb" />
+<text x="514" y="449" font-size="13" fill="#fff" font-weight="400">确认</text>
+<text x="70" y="525" font-size="12" fill="#6b7280" font-weight="400">mutuallyExclusive + checkbox</text>
+<text x="656" y="160" font-size="18" fill="#111827" font-weight="600">多选澄清</text>
+<rect x="656" y="182" width="576" height="366" rx="8" fill="#fff" stroke="#d1d5db" />
+<text x="678" y="214" font-size="14" fill="#111827" font-weight="600">欢迎内容</text>
+<text x="678" y="240" font-size="14" fill="#111827" font-weight="400">欢迎消息重点介绍哪些内容？</text>
+<rect x="678" y="256" width="14" height="14" rx="3" fill="#fff" stroke="#d1d5db" />
+<text x="701" y="268" font-size="14" fill="#111827" font-weight="400">请假与考勤</text>
+<rect x="678" y="288" width="14" height="14" rx="3" fill="#fff" stroke="#d1d5db" />
+<text x="701" y="300" font-size="14" fill="#111827" font-weight="400">费用报销</text>
+<rect x="678" y="320" width="14" height="14" rx="3" fill="#fff" stroke="#d1d5db" />
+<text x="701" y="332" font-size="14" fill="#111827" font-weight="400">办公与协作</text>
+<text x="678" y="362" font-size="12" fill="#6b7280" font-weight="400">补充一句（可以不写）</text>
+<rect x="678" y="374" width="532" height="34" rx="8" fill="#fff" stroke="#d1d5db" />
+<rect x="1028" y="418" width="70" height="33" rx="8" fill="#fff" stroke="#fff" />
+<text x="1039" y="439" font-size="13" fill="#6b7280" font-weight="400">先不选</text>
+<rect x="1110" y="418" width="100" height="33" rx="6" fill="#2563eb" stroke="#2563eb" />
+<text x="1122" y="439" font-size="13" fill="#fff" font-weight="400">就这些</text>
+<text x="678" y="525" font-size="12" fill="#6b7280" font-weight="400">multipleSelection + checkbox</text>
+<text x="48" y="598" font-size="18" fill="#111827" font-weight="600">选人澄清</text>
+<rect x="48" y="620" width="576" height="366" rx="8" fill="#fff" stroke="#d1d5db" />
+<text x="70" y="652" font-size="14" fill="#111827" font-weight="600">确认接收人</text>
+<text x="70" y="678" font-size="14" fill="#111827" font-weight="400">这份入职资料要交给哪位李明？</text>
+<text x="70" y="704" font-size="13" fill="#111827" font-weight="400">选择同事</text>
+<rect x="70" y="720" width="532" height="40" rx="8" fill="#f9fafb" stroke="#d1d5db" />
+<text x="84" y="745" font-size="14" fill="#9ca3af" font-weight="400">搜一个名字</text>
+<text x="562" y="745" font-size="18" fill="#6b7280" font-weight="400">⌄</text>
+<rect x="420" y="775" width="70" height="33" rx="8" fill="#fff" stroke="#fff" />
+<text x="431" y="796" font-size="13" fill="#6b7280" font-weight="400">先不选</text>
+<rect x="502" y="775" width="100" height="33" rx="6" fill="#2563eb" stroke="#2563eb" />
+<text x="514" y="796" font-size="13" fill="#fff" font-weight="400">发给这个人</text>
+<text x="70" y="963" font-size="12" fill="#6b7280" font-weight="400">UserPicker · maxSelections = 1</text>
+<text x="70" y="825" font-size="13" fill="#6b7280" font-weight="400">当前投影不接收冻结候选列表。</text>
+<text x="70" y="848" font-size="13" fill="#6b7280" font-weight="400">具体搜索面板由钉钉客户端渲染，图中不虚构搜索结果。</text>
+<text x="656" y="598" font-size="18" fill="#111827" font-weight="600">审批确认</text>
+<rect x="656" y="620" width="576" height="366" rx="8" fill="#fff" stroke="#d1d5db" />
+<text x="678" y="652" font-size="14" fill="#111827" font-weight="600">待审批</text>
+<text x="678" y="678" font-size="14" fill="#111827" font-weight="400">将这条口径发布为企业共享知识？</text>
+<rect x="678" y="694" width="14" height="14" rx="3" fill="#fff" stroke="#d1d5db" />
+<text x="701" y="706" font-size="14" fill="#111827" font-weight="400">同意</text>
+<rect x="678" y="726" width="14" height="14" rx="3" fill="#fff" stroke="#d1d5db" />
+<text x="701" y="738" font-size="14" fill="#111827" font-weight="400">驳回</text>
+<text x="678" y="768" font-size="12" fill="#6b7280" font-weight="400">补充一句（可以不写）</text>
+<rect x="678" y="780" width="532" height="34" rx="8" fill="#fff" stroke="#d1d5db" />
+<rect x="1028" y="824" width="70" height="33" rx="8" fill="#fff" stroke="#fff" />
+<text x="1039" y="845" font-size="13" fill="#6b7280" font-weight="400">先不选</text>
+<rect x="1110" y="824" width="100" height="33" rx="6" fill="#2563eb" stroke="#2563eb" />
+<text x="1122" y="845" font-size="13" fill="#fff" font-weight="400">提交</text>
+<text x="678" y="963" font-size="12" fill="#6b7280" font-weight="400">ChoicePicker → 同意 / 驳回 → 提交</text>
+<text x="48" y="1022" font-size="16" fill="#111827" font-weight="600">接续关系 · 虚线部分为本次方案，服务尚未接线</text>
+<rect x="48" y="1046" width="328" height="48" rx="8" fill="#fff" stroke="#9ca3af" stroke-dasharray="5 3"/>
+<text x="64" y="1070" font-size="14" fill="#111827" font-weight="600">卡片提交</text>
+<text x="64" y="1088" font-size="12" fill="#6b7280" font-weight="400">runtime.clarification.submit</text>
+<rect x="48" y="1114" width="328" height="48" rx="8" fill="#fff" stroke="#9ca3af" stroke-dasharray="5 3"/>
+<text x="64" y="1138" font-size="14" fill="#111827" font-weight="600">普通聊天文字</text>
+<text x="64" y="1156" font-size="12" fill="#6b7280" font-weight="400">可以不点卡片，继续说要求</text>
+<rect x="520" y="1070" width="306" height="70" rx="8" fill="#fff" stroke="#9ca3af" stroke-dasharray="5 3"/>
+<text x="536" y="1094" font-size="14" fill="#111827" font-weight="600">同一问题受理</text>
+<text x="536" y="1112" font-size="12" fill="#6b7280" font-weight="400">校验身份、场域、问题与输入版本</text>
+<rect x="952" y="1070" width="280" height="70" rx="8" fill="#fff" stroke="#9ca3af" stroke-dasharray="5 3"/>
+<text x="968" y="1094" font-size="14" fill="#111827" font-weight="600">继续处理</text>
+<text x="968" y="1112" font-size="12" fill="#6b7280" font-weight="400">Employee 继续 / Pi 全新下一轮</text>
+<path d="M376 1070 H440 V1105 H520" fill="none" stroke="#6b7280" stroke-width="1.5" stroke-dasharray="4 3" marker-end="url(#arrow)"/>
+<path d="M376 1138 H440 V1105" fill="none" stroke="#6b7280" stroke-width="1.5" stroke-dasharray="4 3" marker-end="url(#arrow)"/>
+<path d="M826 1105 H952" fill="none" stroke="#6b7280" stroke-width="1.5" stroke-dasharray="4 3" marker-end="url(#arrow)"/>
+<rect x="466" y="1076" width="40" height="21" rx="0" fill="#f8fafc" stroke="#f8fafc" />
+<text x="470" y="1091" font-size="12" fill="#6b7280" font-weight="400">输入</text>
+<rect x="875" y="1080" width="40" height="21" rx="0" fill="#f8fafc" stroke="#f8fafc" />
+<text x="879" y="1095" font-size="12" fill="#6b7280" font-weight="400">推进</text>
+<text x="48" y="1200" font-size="13" fill="#6b7280" font-weight="400">loading：当前投影没有该组件；引用回复 + 随机短文案 + loading 仍需独立接线。</text>
+</svg>
+</figure><p class="code-evidence"><a href="a2ui-code-schematic.svg" download>下载 SVG</a> · <a href="a2ui-code-schematic.png" download>下载 PNG</a></p><details class="code-gallery"><summary>展开：直接用投影 JSON 预览组件与提交事件</summary><div class="code-layout"><div class="code-playground"><label for="code-card-sample" class="sr-only">选择实际投影</label><select id="code-card-sample"><option value="single">通用 A2UI · 单选澄清</option><option value="multiple">通用 A2UI · 多选澄清</option><option value="person">通用 A2UI · 选人澄清</option><option value="approval">通用 A2UI · 审批确认</option><option value="coordinator">Coordinator · userdecision</option></select><p class="code-evidence" id="code-source"></p><div class="code-projection" id="code-card-root"></div><p class="code-note" id="code-caveat"></p><pre class="code-output" id="code-event">可以操作选择与补充，查看对应 action.context。此页不发送消息。</pre></div><div><p class="code-evidence">下面是原函数实际生成的 createSurface + updateComponents。HTML只做有限组件示意，不是钉钉原生渲染器。</p><pre class="code-json" id="code-json"></pre></div></div></details><p class="code-note">现有场景页保留为后续交互设计；尤其是冻结同名候选、普通聊天接续和 loading，不能当作当前 A2UI 投影已经实现。原生 UserPicker 的搜索结果和颜色尺寸需在钉钉客户端实测。</p></section><footer class="footer"><span>Tag × Pi × A2UI · 2026-10-04 · 可离线打开，无外部依赖</span><div class="footer-links"><a href="#" onclick="document.querySelector('[data-tab=code]').click();return false">代码示意 ↗</a><a href="#" onclick="document.querySelector('[data-tab=architecture]').click();return false">技术架构 ↗</a></div></footer>
 </main><div id="toast" class="toast" role="status" hidden></div>
 <script>
 'use strict';
@@ -129,6 +224,1079 @@ const nodes={ingress:{kind:'ADMISSION',title:'可信事件入口',sub:'来源 ·
 const paths={ack:{nodes:['ingress','receipt','outbox'],text:'<strong>快速响应：</strong>认证与持久受理后直接走 outbox → A2UI。没有新增 LLM 调用，业务执行并行继续。'},sandbox:{nodes:['loop','task','receipt','outbox','human'],text:'<strong>沙箱提出确认：</strong>Run正常结束 → 保存本轮结果与问题 → 文案＋选项发卡；不保持沙箱、不注入ask_human。节点网格展示职责模块；上方序列展示真实顺序。'},answer:{nodes:['human','ingress','receipt','answer','resume','task','result'],text:'<strong>人工回流：</strong>受权人点击 → 可信事件准入 → 精确 answer/wait/intent → 同 Task 新 Run → 原交付场域。'},recovery:{nodes:['receipt','outbox','answer','resume','result'],text:'<strong>下一轮独立执行：</strong>本轮Pi已退出，问题留在Host；人的选择到达后重新装配下一轮，不依赖旧进程或session。'}};
 let archPath='ack',selectedNode='receipt';
 function renderArchitecture(){document.querySelectorAll('[data-path]').forEach(b=>{b.classList.toggle('active',b.dataset.path===archPath);b.setAttribute('aria-pressed',b.dataset.path===archPath?'true':'false');});$('path-sequence').innerHTML=paths[archPath].nodes.map(id=>`<span>${nodes[id].title}</span>`).join('<i aria-hidden="true">→</i>');$('architecture-grid').innerHTML=Object.entries(nodes).map(([id,n])=>`<button class="arch-node ${paths[archPath].nodes.includes(id)?'lit':''} ${id===selectedNode?'selected':''}" data-node="${id}" aria-pressed="${id===selectedNode}"><span class="node-kind">${n.kind}</span><strong>${n.title}</strong><small>${n.sub}</small></button>`).join('');const n=nodes[selectedNode];$('technical-details').innerHTML=`<div class="inspect-label">节点职责 · ${n.kind}</div><h3>${n.title}</h3><p>${n.description}</p><ul>${n.rules.map(x=>`<li>${x}</li>`).join('')}</ul><code>${n.code}</code><p>这是拟接入合同，不是线上能力已完成的声明。</p>`;$('architecture-foot').innerHTML=paths[archPath].text;}
+
+const projectedCards={
+  "approval": [
+    {
+      "createSurface": {
+        "catalogId": "https://dingtalk.com/card/a2ui/catalogs/public/catalog.json",
+        "dataModel": {
+          "clarification": {
+            "answers": {
+              "q0": {
+                "custom": "",
+                "selected": []
+              }
+            },
+            "questions": [
+              {
+                "allowCustom": true,
+                "id": "q0",
+                "options": [
+                  {
+                    "id": "o0",
+                    "label": "同意"
+                  },
+                  {
+                    "id": "o1",
+                    "label": "驳回"
+                  }
+                ],
+                "prompt": "将这条口径发布为企业共享知识？",
+                "selection": "single"
+              }
+            ],
+            "sourceProjectionVersion": "a2ui-loop/v1",
+            "sourceTurnId": "ask:demo-approval"
+          },
+          "questionSummary": "将这条口径发布为企业共享知识？"
+        },
+        "surfaceId": "s-demo-approval"
+      },
+      "version": "v1.0"
+    },
+    {
+      "updateComponents": {
+        "components": [
+          {
+            "align": "stretch",
+            "catalogId": "https://a2ui.org/specification/v1_0/catalogs/basic/catalog.json",
+            "children": [
+              "title",
+              "question",
+              "choices",
+              "extra",
+              "actions"
+            ],
+            "component": "Column",
+            "gap": 8,
+            "id": "root",
+            "justify": "start"
+          },
+          {
+            "bold": true,
+            "catalogId": "https://dingtalk.com/card/a2ui/catalogs/public/catalog.json",
+            "colorToken": "common_level1_base_color",
+            "component": "Text",
+            "id": "title",
+            "maxLine": 2,
+            "text": "待审批",
+            "variant": "body"
+          },
+          {
+            "catalogId": "https://dingtalk.com/card/a2ui/catalogs/public/catalog.json",
+            "colorToken": "common_level1_base_color",
+            "component": "Text",
+            "id": "question",
+            "maxLine": 8,
+            "text": "将这条口径发布为企业共享知识？",
+            "variant": "body",
+            "weight": 1
+          },
+          {
+            "catalogId": "https://a2ui.org/specification/v1_0/catalogs/basic/catalog.json",
+            "component": "ChoicePicker",
+            "displayStyle": "checkbox",
+            "id": "choices",
+            "options": [
+              {
+                "label": "同意",
+                "value": "o0"
+              },
+              {
+                "label": "驳回",
+                "value": "o1"
+              }
+            ],
+            "value": {
+              "path": "/clarification/answers/q0/selected"
+            },
+            "variant": "mutuallyExclusive"
+          },
+          {
+            "catalogId": "https://a2ui.org/specification/v1_0/catalogs/basic/catalog.json",
+            "component": "TextField",
+            "id": "extra",
+            "label": "补充一句（可以不写）",
+            "value": {
+              "path": "/clarification/answers/q0/custom"
+            }
+          },
+          {
+            "align": "center",
+            "catalogId": "https://a2ui.org/specification/v1_0/catalogs/basic/catalog.json",
+            "children": [
+              "skip",
+              "submit"
+            ],
+            "component": "Row",
+            "gap": 8,
+            "id": "actions",
+            "justify": "end"
+          },
+          {
+            "catalogId": "https://a2ui.org/specification/v1_0/catalogs/basic/catalog.json",
+            "component": "Text",
+            "id": "submitLabel",
+            "text": "提交"
+          },
+          {
+            "action": {
+              "event": {
+                "context": {
+                  "answers": {
+                    "path": "/clarification/answers"
+                  },
+                  "outcome": "answered",
+                  "questions": {
+                    "path": "/clarification/questions"
+                  },
+                  "sourceProjectionVersion": {
+                    "path": "/clarification/sourceProjectionVersion"
+                  },
+                  "sourceTurnId": {
+                    "path": "/clarification/sourceTurnId"
+                  }
+                },
+                "name": "runtime.clarification.submit"
+              }
+            },
+            "catalogId": "https://a2ui.org/specification/v1_0/catalogs/basic/catalog.json",
+            "checks": [
+              {
+                "condition": {
+                  "args": {
+                    "values": [
+                      {
+                        "args": {
+                          "value": {
+                            "path": "/clarification/answers/q0/selected"
+                          }
+                        },
+                        "call": "required",
+                        "catalogId": "https://a2ui.org/specification/v1_0/catalogs/basic/catalog.json"
+                      },
+                      {
+                        "args": {
+                          "value": {
+                            "path": "/clarification/answers/q0/custom"
+                          }
+                        },
+                        "call": "required",
+                        "catalogId": "https://a2ui.org/specification/v1_0/catalogs/basic/catalog.json"
+                      }
+                    ]
+                  },
+                  "call": "or",
+                  "catalogId": "https://a2ui.org/specification/v1_0/catalogs/basic/catalog.json"
+                },
+                "message": "请选择一项或填写补充说明"
+              }
+            ],
+            "child": "submitLabel",
+            "component": "Button",
+            "id": "submit",
+            "variant": "primary"
+          },
+          {
+            "catalogId": "https://dingtalk.com/card/a2ui/catalogs/public/catalog.json",
+            "colorToken": "common_level2_base_color",
+            "component": "Text",
+            "id": "skipLabel",
+            "maxLine": 2,
+            "text": "先不选",
+            "variant": "caption"
+          },
+          {
+            "action": {
+              "event": {
+                "context": {
+                  "answers": {
+                    "path": "/clarification/answers"
+                  },
+                  "outcome": "skipped",
+                  "questions": {
+                    "path": "/clarification/questions"
+                  },
+                  "sourceProjectionVersion": {
+                    "path": "/clarification/sourceProjectionVersion"
+                  },
+                  "sourceTurnId": {
+                    "path": "/clarification/sourceTurnId"
+                  }
+                },
+                "name": "runtime.clarification.submit"
+              }
+            },
+            "catalogId": "https://a2ui.org/specification/v1_0/catalogs/basic/catalog.json",
+            "child": "skipLabel",
+            "component": "Button",
+            "id": "skip",
+            "variant": "borderless"
+          }
+        ],
+        "surfaceId": "s-demo-approval"
+      },
+      "version": "v1.0"
+    }
+  ],
+  "multiple": [
+    {
+      "createSurface": {
+        "catalogId": "https://dingtalk.com/card/a2ui/catalogs/public/catalog.json",
+        "dataModel": {
+          "clarification": {
+            "answers": {
+              "q0": {
+                "custom": "",
+                "selected": []
+              }
+            },
+            "questions": [
+              {
+                "allowCustom": true,
+                "id": "q0",
+                "options": [
+                  {
+                    "id": "o0",
+                    "label": "请假与考勤"
+                  },
+                  {
+                    "id": "o1",
+                    "label": "费用报销"
+                  },
+                  {
+                    "id": "o2",
+                    "label": "办公与协作"
+                  }
+                ],
+                "prompt": "欢迎消息重点介绍哪些内容？",
+                "selection": "multiple"
+              }
+            ],
+            "sourceProjectionVersion": "a2ui-loop/v1",
+            "sourceTurnId": "ask:demo-multiple"
+          },
+          "questionSummary": "欢迎消息重点介绍哪些内容？"
+        },
+        "surfaceId": "s-demo-multiple"
+      },
+      "version": "v1.0"
+    },
+    {
+      "updateComponents": {
+        "components": [
+          {
+            "align": "stretch",
+            "catalogId": "https://a2ui.org/specification/v1_0/catalogs/basic/catalog.json",
+            "children": [
+              "title",
+              "question",
+              "choices",
+              "extra",
+              "actions"
+            ],
+            "component": "Column",
+            "gap": 8,
+            "id": "root",
+            "justify": "start"
+          },
+          {
+            "bold": true,
+            "catalogId": "https://dingtalk.com/card/a2ui/catalogs/public/catalog.json",
+            "colorToken": "common_level1_base_color",
+            "component": "Text",
+            "id": "title",
+            "maxLine": 2,
+            "text": "欢迎内容",
+            "variant": "body"
+          },
+          {
+            "catalogId": "https://dingtalk.com/card/a2ui/catalogs/public/catalog.json",
+            "colorToken": "common_level1_base_color",
+            "component": "Text",
+            "id": "question",
+            "maxLine": 8,
+            "text": "欢迎消息重点介绍哪些内容？",
+            "variant": "body",
+            "weight": 1
+          },
+          {
+            "catalogId": "https://a2ui.org/specification/v1_0/catalogs/basic/catalog.json",
+            "component": "ChoicePicker",
+            "displayStyle": "checkbox",
+            "id": "choices",
+            "options": [
+              {
+                "label": "请假与考勤",
+                "value": "o0"
+              },
+              {
+                "label": "费用报销",
+                "value": "o1"
+              },
+              {
+                "label": "办公与协作",
+                "value": "o2"
+              }
+            ],
+            "value": {
+              "path": "/clarification/answers/q0/selected"
+            },
+            "variant": "multipleSelection"
+          },
+          {
+            "catalogId": "https://a2ui.org/specification/v1_0/catalogs/basic/catalog.json",
+            "component": "TextField",
+            "id": "extra",
+            "label": "补充一句（可以不写）",
+            "value": {
+              "path": "/clarification/answers/q0/custom"
+            }
+          },
+          {
+            "align": "center",
+            "catalogId": "https://a2ui.org/specification/v1_0/catalogs/basic/catalog.json",
+            "children": [
+              "skip",
+              "submit"
+            ],
+            "component": "Row",
+            "gap": 8,
+            "id": "actions",
+            "justify": "end"
+          },
+          {
+            "catalogId": "https://a2ui.org/specification/v1_0/catalogs/basic/catalog.json",
+            "component": "Text",
+            "id": "submitLabel",
+            "text": "就这些"
+          },
+          {
+            "action": {
+              "event": {
+                "context": {
+                  "answers": {
+                    "path": "/clarification/answers"
+                  },
+                  "outcome": "answered",
+                  "questions": {
+                    "path": "/clarification/questions"
+                  },
+                  "sourceProjectionVersion": {
+                    "path": "/clarification/sourceProjectionVersion"
+                  },
+                  "sourceTurnId": {
+                    "path": "/clarification/sourceTurnId"
+                  }
+                },
+                "name": "runtime.clarification.submit"
+              }
+            },
+            "catalogId": "https://a2ui.org/specification/v1_0/catalogs/basic/catalog.json",
+            "checks": [
+              {
+                "condition": {
+                  "args": {
+                    "values": [
+                      {
+                        "args": {
+                          "value": {
+                            "path": "/clarification/answers/q0/selected"
+                          }
+                        },
+                        "call": "required",
+                        "catalogId": "https://a2ui.org/specification/v1_0/catalogs/basic/catalog.json"
+                      },
+                      {
+                        "args": {
+                          "value": {
+                            "path": "/clarification/answers/q0/custom"
+                          }
+                        },
+                        "call": "required",
+                        "catalogId": "https://a2ui.org/specification/v1_0/catalogs/basic/catalog.json"
+                      }
+                    ]
+                  },
+                  "call": "or",
+                  "catalogId": "https://a2ui.org/specification/v1_0/catalogs/basic/catalog.json"
+                },
+                "message": "请选择一项或填写补充说明"
+              }
+            ],
+            "child": "submitLabel",
+            "component": "Button",
+            "id": "submit",
+            "variant": "primary"
+          },
+          {
+            "catalogId": "https://dingtalk.com/card/a2ui/catalogs/public/catalog.json",
+            "colorToken": "common_level2_base_color",
+            "component": "Text",
+            "id": "skipLabel",
+            "maxLine": 2,
+            "text": "先不选",
+            "variant": "caption"
+          },
+          {
+            "action": {
+              "event": {
+                "context": {
+                  "answers": {
+                    "path": "/clarification/answers"
+                  },
+                  "outcome": "skipped",
+                  "questions": {
+                    "path": "/clarification/questions"
+                  },
+                  "sourceProjectionVersion": {
+                    "path": "/clarification/sourceProjectionVersion"
+                  },
+                  "sourceTurnId": {
+                    "path": "/clarification/sourceTurnId"
+                  }
+                },
+                "name": "runtime.clarification.submit"
+              }
+            },
+            "catalogId": "https://a2ui.org/specification/v1_0/catalogs/basic/catalog.json",
+            "child": "skipLabel",
+            "component": "Button",
+            "id": "skip",
+            "variant": "borderless"
+          }
+        ],
+        "surfaceId": "s-demo-multiple"
+      },
+      "version": "v1.0"
+    }
+  ],
+  "person": [
+    {
+      "createSurface": {
+        "catalogId": "https://dingtalk.com/card/a2ui/catalogs/public/catalog.json",
+        "dataModel": {
+          "clarification": {
+            "answers": {
+              "q0": {
+                "custom": "",
+                "selected": []
+              }
+            },
+            "questions": [
+              {
+                "allowCustom": false,
+                "id": "q0",
+                "inputKind": "person",
+                "options": [],
+                "prompt": "这份入职资料要交给哪位李明？",
+                "selection": "single"
+              }
+            ],
+            "sourceProjectionVersion": "a2ui-loop/v1",
+            "sourceTurnId": "ask:demo-person"
+          },
+          "questionSummary": "这份入职资料要交给哪位李明？"
+        },
+        "surfaceId": "s-demo-person"
+      },
+      "version": "v1.0"
+    },
+    {
+      "updateComponents": {
+        "components": [
+          {
+            "align": "stretch",
+            "catalogId": "https://a2ui.org/specification/v1_0/catalogs/basic/catalog.json",
+            "children": [
+              "title",
+              "question",
+              "person",
+              "actions"
+            ],
+            "component": "Column",
+            "gap": 8,
+            "id": "root",
+            "justify": "start"
+          },
+          {
+            "bold": true,
+            "catalogId": "https://dingtalk.com/card/a2ui/catalogs/public/catalog.json",
+            "colorToken": "common_level1_base_color",
+            "component": "Text",
+            "id": "title",
+            "maxLine": 2,
+            "text": "确认接收人",
+            "variant": "body"
+          },
+          {
+            "catalogId": "https://dingtalk.com/card/a2ui/catalogs/public/catalog.json",
+            "colorToken": "common_level1_base_color",
+            "component": "Text",
+            "id": "question",
+            "maxLine": 8,
+            "text": "这份入职资料要交给哪位李明？",
+            "variant": "body",
+            "weight": 1
+          },
+          {
+            "catalogId": "https://dingtalk.com/card/a2ui/catalogs/public/catalog.json",
+            "component": "UserPicker",
+            "id": "person",
+            "maxSelections": 1,
+            "placeholder": "搜一个名字",
+            "title": "选择同事",
+            "value": {
+              "path": "/clarification/answers/q0/selected"
+            }
+          },
+          {
+            "align": "center",
+            "catalogId": "https://a2ui.org/specification/v1_0/catalogs/basic/catalog.json",
+            "children": [
+              "skip",
+              "submit"
+            ],
+            "component": "Row",
+            "gap": 8,
+            "id": "actions",
+            "justify": "end"
+          },
+          {
+            "catalogId": "https://a2ui.org/specification/v1_0/catalogs/basic/catalog.json",
+            "component": "Text",
+            "id": "submitLabel",
+            "text": "发给这个人"
+          },
+          {
+            "action": {
+              "event": {
+                "context": {
+                  "answers": {
+                    "path": "/clarification/answers"
+                  },
+                  "outcome": "answered",
+                  "questions": {
+                    "path": "/clarification/questions"
+                  },
+                  "sourceProjectionVersion": {
+                    "path": "/clarification/sourceProjectionVersion"
+                  },
+                  "sourceTurnId": {
+                    "path": "/clarification/sourceTurnId"
+                  }
+                },
+                "name": "runtime.clarification.submit"
+              }
+            },
+            "catalogId": "https://a2ui.org/specification/v1_0/catalogs/basic/catalog.json",
+            "checks": [
+              {
+                "condition": {
+                  "args": {
+                    "value": {
+                      "path": "/clarification/answers/q0/selected"
+                    }
+                  },
+                  "call": "required",
+                  "catalogId": "https://a2ui.org/specification/v1_0/catalogs/basic/catalog.json"
+                },
+                "message": "请选择一项"
+              }
+            ],
+            "child": "submitLabel",
+            "component": "Button",
+            "id": "submit",
+            "variant": "primary"
+          },
+          {
+            "catalogId": "https://dingtalk.com/card/a2ui/catalogs/public/catalog.json",
+            "colorToken": "common_level2_base_color",
+            "component": "Text",
+            "id": "skipLabel",
+            "maxLine": 2,
+            "text": "先不选",
+            "variant": "caption"
+          },
+          {
+            "action": {
+              "event": {
+                "context": {
+                  "answers": {
+                    "path": "/clarification/answers"
+                  },
+                  "outcome": "skipped",
+                  "questions": {
+                    "path": "/clarification/questions"
+                  },
+                  "sourceProjectionVersion": {
+                    "path": "/clarification/sourceProjectionVersion"
+                  },
+                  "sourceTurnId": {
+                    "path": "/clarification/sourceTurnId"
+                  }
+                },
+                "name": "runtime.clarification.submit"
+              }
+            },
+            "catalogId": "https://a2ui.org/specification/v1_0/catalogs/basic/catalog.json",
+            "child": "skipLabel",
+            "component": "Button",
+            "id": "skip",
+            "variant": "borderless"
+          }
+        ],
+        "surfaceId": "s-demo-person"
+      },
+      "version": "v1.0"
+    }
+  ],
+  "single": [
+    {
+      "createSurface": {
+        "catalogId": "https://dingtalk.com/card/a2ui/catalogs/public/catalog.json",
+        "dataModel": {
+          "clarification": {
+            "answers": {
+              "q0": {
+                "custom": "",
+                "selected": []
+              }
+            },
+            "questions": [
+              {
+                "allowCustom": true,
+                "id": "q0",
+                "options": [
+                  {
+                    "description": "制度说明与入职须知",
+                    "id": "o0",
+                    "label": "员工手册"
+                  },
+                  {
+                    "description": "请假、报销与用品申请",
+                    "id": "o1",
+                    "label": "办公流程"
+                  }
+                ],
+                "prompt": "先整理哪一部分资料？",
+                "selection": "single"
+              }
+            ],
+            "sourceProjectionVersion": "a2ui-loop/v1",
+            "sourceTurnId": "ask:demo-single"
+          },
+          "questionSummary": "先整理哪一部分资料？"
+        },
+        "surfaceId": "s-demo-single"
+      },
+      "version": "v1.0"
+    },
+    {
+      "updateComponents": {
+        "components": [
+          {
+            "align": "stretch",
+            "catalogId": "https://a2ui.org/specification/v1_0/catalogs/basic/catalog.json",
+            "children": [
+              "title",
+              "question",
+              "hint-o0",
+              "hint-o1",
+              "choices",
+              "extra",
+              "actions"
+            ],
+            "component": "Column",
+            "gap": 8,
+            "id": "root",
+            "justify": "start"
+          },
+          {
+            "bold": true,
+            "catalogId": "https://dingtalk.com/card/a2ui/catalogs/public/catalog.json",
+            "colorToken": "common_level1_base_color",
+            "component": "Text",
+            "id": "title",
+            "maxLine": 2,
+            "text": "确认资料范围",
+            "variant": "body"
+          },
+          {
+            "catalogId": "https://dingtalk.com/card/a2ui/catalogs/public/catalog.json",
+            "colorToken": "common_level1_base_color",
+            "component": "Text",
+            "id": "question",
+            "maxLine": 8,
+            "text": "先整理哪一部分资料？",
+            "variant": "body",
+            "weight": 1
+          },
+          {
+            "catalogId": "https://dingtalk.com/card/a2ui/catalogs/public/catalog.json",
+            "colorToken": "common_level2_base_color",
+            "component": "Text",
+            "id": "hint-o0",
+            "maxLine": 2,
+            "text": "员工手册 · 制度说明与入职须知",
+            "variant": "caption"
+          },
+          {
+            "catalogId": "https://dingtalk.com/card/a2ui/catalogs/public/catalog.json",
+            "colorToken": "common_level2_base_color",
+            "component": "Text",
+            "id": "hint-o1",
+            "maxLine": 2,
+            "text": "办公流程 · 请假、报销与用品申请",
+            "variant": "caption"
+          },
+          {
+            "catalogId": "https://a2ui.org/specification/v1_0/catalogs/basic/catalog.json",
+            "component": "ChoicePicker",
+            "displayStyle": "checkbox",
+            "id": "choices",
+            "options": [
+              {
+                "label": "员工手册",
+                "value": "o0"
+              },
+              {
+                "label": "办公流程",
+                "value": "o1"
+              }
+            ],
+            "value": {
+              "path": "/clarification/answers/q0/selected"
+            },
+            "variant": "mutuallyExclusive"
+          },
+          {
+            "catalogId": "https://a2ui.org/specification/v1_0/catalogs/basic/catalog.json",
+            "component": "TextField",
+            "id": "extra",
+            "label": "补充一句（可以不写）",
+            "value": {
+              "path": "/clarification/answers/q0/custom"
+            }
+          },
+          {
+            "align": "center",
+            "catalogId": "https://a2ui.org/specification/v1_0/catalogs/basic/catalog.json",
+            "children": [
+              "skip",
+              "submit"
+            ],
+            "component": "Row",
+            "gap": 8,
+            "id": "actions",
+            "justify": "end"
+          },
+          {
+            "catalogId": "https://a2ui.org/specification/v1_0/catalogs/basic/catalog.json",
+            "component": "Text",
+            "id": "submitLabel",
+            "text": "确认"
+          },
+          {
+            "action": {
+              "event": {
+                "context": {
+                  "answers": {
+                    "path": "/clarification/answers"
+                  },
+                  "outcome": "answered",
+                  "questions": {
+                    "path": "/clarification/questions"
+                  },
+                  "sourceProjectionVersion": {
+                    "path": "/clarification/sourceProjectionVersion"
+                  },
+                  "sourceTurnId": {
+                    "path": "/clarification/sourceTurnId"
+                  }
+                },
+                "name": "runtime.clarification.submit"
+              }
+            },
+            "catalogId": "https://a2ui.org/specification/v1_0/catalogs/basic/catalog.json",
+            "checks": [
+              {
+                "condition": {
+                  "args": {
+                    "values": [
+                      {
+                        "args": {
+                          "value": {
+                            "path": "/clarification/answers/q0/selected"
+                          }
+                        },
+                        "call": "required",
+                        "catalogId": "https://a2ui.org/specification/v1_0/catalogs/basic/catalog.json"
+                      },
+                      {
+                        "args": {
+                          "value": {
+                            "path": "/clarification/answers/q0/custom"
+                          }
+                        },
+                        "call": "required",
+                        "catalogId": "https://a2ui.org/specification/v1_0/catalogs/basic/catalog.json"
+                      }
+                    ]
+                  },
+                  "call": "or",
+                  "catalogId": "https://a2ui.org/specification/v1_0/catalogs/basic/catalog.json"
+                },
+                "message": "请选择一项或填写补充说明"
+              }
+            ],
+            "child": "submitLabel",
+            "component": "Button",
+            "id": "submit",
+            "variant": "primary"
+          },
+          {
+            "catalogId": "https://dingtalk.com/card/a2ui/catalogs/public/catalog.json",
+            "colorToken": "common_level2_base_color",
+            "component": "Text",
+            "id": "skipLabel",
+            "maxLine": 2,
+            "text": "先不选",
+            "variant": "caption"
+          },
+          {
+            "action": {
+              "event": {
+                "context": {
+                  "answers": {
+                    "path": "/clarification/answers"
+                  },
+                  "outcome": "skipped",
+                  "questions": {
+                    "path": "/clarification/questions"
+                  },
+                  "sourceProjectionVersion": {
+                    "path": "/clarification/sourceProjectionVersion"
+                  },
+                  "sourceTurnId": {
+                    "path": "/clarification/sourceTurnId"
+                  }
+                },
+                "name": "runtime.clarification.submit"
+              }
+            },
+            "catalogId": "https://a2ui.org/specification/v1_0/catalogs/basic/catalog.json",
+            "child": "skipLabel",
+            "component": "Button",
+            "id": "skip",
+            "variant": "borderless"
+          }
+        ],
+        "surfaceId": "s-demo-single"
+      },
+      "version": "v1.0"
+    }
+  ],
+  "coordinator": [
+    {
+      "createSurface": {
+        "catalogId": "https://dingtalk.com/card/a2ui/catalogs/public/catalog.json",
+        "dataModel": {
+          "clarification": {
+            "answers": {
+              "q0": {
+                "custom": "",
+                "selected": []
+              }
+            },
+            "questions": [
+              {
+                "allowCustom": true,
+                "id": "q0",
+                "options": [
+                  {
+                    "id": "a",
+                    "label": "接着整理入职清单"
+                  },
+                  {
+                    "id": "b",
+                    "label": "开始新的工作"
+                  },
+                  {
+                    "id": "c",
+                    "label": "只回复，不派任务"
+                  }
+                ],
+                "prompt": "你想接着做哪件事？",
+                "selection": "single"
+              }
+            ],
+            "sourceProjectionVersion": "coordinator-user-decision-v1",
+            "sourceTurnId": "decision-demo"
+          },
+          "questionSummary": "你想接着做哪件事？"
+        },
+        "surfaceId": "decision-demo"
+      },
+      "version": "v1.0"
+    },
+    {
+      "updateComponents": {
+        "components": [
+          {
+            "catalogId": "https://a2ui.org/specification/v1_0/catalogs/basic/catalog.json",
+            "children": [
+              "question",
+              "choices",
+              "extra",
+              "submit"
+            ],
+            "component": "Column",
+            "id": "root"
+          },
+          {
+            "catalogId": "https://dingtalk.com/card/a2ui/catalogs/public/catalog.json",
+            "component": "Markdown",
+            "content": {
+              "path": "/questionSummary"
+            },
+            "id": "question"
+          },
+          {
+            "catalogId": "https://a2ui.org/specification/v1_0/catalogs/basic/catalog.json",
+            "component": "ChoicePicker",
+            "displayStyle": "checkbox",
+            "id": "choices",
+            "options": [
+              {
+                "label": "接着整理入职清单",
+                "value": "a"
+              },
+              {
+                "label": "开始新的工作",
+                "value": "b"
+              },
+              {
+                "label": "只回复，不派任务",
+                "value": "c"
+              }
+            ],
+            "value": {
+              "path": "/clarification/answers/q0/selected"
+            },
+            "variant": "mutuallyExclusive"
+          },
+          {
+            "catalogId": "https://a2ui.org/specification/v1_0/catalogs/basic/catalog.json",
+            "component": "TextField",
+            "id": "extra",
+            "label": "补充说明（可选，也可以直接写你的想法）",
+            "value": {
+              "path": "/clarification/answers/q0/custom"
+            }
+          },
+          {
+            "catalogId": "https://a2ui.org/specification/v1_0/catalogs/basic/catalog.json",
+            "component": "Text",
+            "id": "submitLabel",
+            "text": "提交选择"
+          },
+          {
+            "action": {
+              "event": {
+                "context": {
+                  "answers": {
+                    "path": "/clarification/answers"
+                  },
+                  "outcome": "answered",
+                  "questions": {
+                    "path": "/clarification/questions"
+                  },
+                  "sourceProjectionVersion": {
+                    "path": "/clarification/sourceProjectionVersion"
+                  },
+                  "sourceTurnId": {
+                    "path": "/clarification/sourceTurnId"
+                  }
+                },
+                "name": "runtime.clarification.submit"
+              }
+            },
+            "catalogId": "https://a2ui.org/specification/v1_0/catalogs/basic/catalog.json",
+            "checks": [
+              {
+                "condition": {
+                  "args": {
+                    "values": [
+                      {
+                        "args": {
+                          "value": {
+                            "path": "/clarification/answers/q0/selected"
+                          }
+                        },
+                        "call": "required",
+                        "catalogId": "https://a2ui.org/specification/v1_0/catalogs/basic/catalog.json"
+                      },
+                      {
+                        "args": {
+                          "value": {
+                            "path": "/clarification/answers/q0/custom"
+                          }
+                        },
+                        "call": "required",
+                        "catalogId": "https://a2ui.org/specification/v1_0/catalogs/basic/catalog.json"
+                      }
+                    ]
+                  },
+                  "call": "or",
+                  "catalogId": "https://a2ui.org/specification/v1_0/catalogs/basic/catalog.json"
+                },
+                "message": "请选择一项或填写补充说明"
+              }
+            ],
+            "child": "submitLabel",
+            "component": "Button",
+            "id": "submit",
+            "variant": "primary"
+          }
+        ],
+        "surfaceId": "decision-demo"
+      },
+      "version": "v1.0"
+    }
+  ]
+}
+;
+let codeModel={},codeComponents={};
+function cpGet(path){return path.split('/').filter(Boolean).reduce((v,k)=>v?.[k],codeModel);}
+function cpSet(path,value){const keys=path.split('/').filter(Boolean);const last=keys.pop();let v=codeModel;keys.forEach(k=>v=v[k]??=( {} ));v[last]=value;}
+function cpResolve(v){if(v&&typeof v==='object'){if(v.path)return cpGet(v.path);if(Array.isArray(v))return v.map(cpResolve);return Object.fromEntries(Object.entries(v).map(([k,x])=>[k,cpResolve(x)]));}return v;}
+function cpCondition(v){if(v.call==='required'){const x=cpResolve(v.args.value);return Array.isArray(x)?x.length>0:typeof x==='string'?x.trim().length>0:!!x;}if(v.call==='or')return v.args.values.some(cpCondition);return false;}
+function cpNode(id){
+ const c=codeComponents[id];if(!c)return document.createTextNode('');let el=document.createElement('div');
+ if(c.component==='Column'||c.component==='Row'){el.className=c.component==='Column'?'cp-column':'cp-row';c.children.forEach(id=>el.append(cpNode(id)));}
+ else if(c.component==='Text'||c.component==='Markdown'){el.textContent=cpResolve(c.text??c.content)??'';el.className=c.bold?'cp-title':c.variant==='caption'?'cp-caption':'';}
+ else if(c.component==='ChoicePicker'){el.className='cp-choices';c.options.forEach(o=>{const label=document.createElement('label');label.className='cp-option';const input=document.createElement('input');input.type='checkbox';input.value=o.value;input.dataset.choice=id;input.checked=cpGet(c.value.path).includes(o.value);input.addEventListener('change',()=>{let values=cpGet(c.value.path);if(c.variant==='mutuallyExclusive'){values=input.checked?[o.value]:[];el.querySelectorAll('input').forEach(x=>x.checked=values.includes(x.value));}else values=input.checked?[...new Set([...values,o.value])]:values.filter(v=>v!==o.value);cpSet(c.value.path,values);});label.append(input,document.createTextNode(o.label));el.append(label);});}
+ else if(c.component==='TextField'){el=document.createElement('label');el.className='cp-field';const label=document.createElement('span');label.textContent=c.label;const input=document.createElement('input');input.type='text';input.value=cpGet(c.value.path);input.addEventListener('input',()=>cpSet(c.value.path,input.value));el.append(label,input);}
+ else if(c.component==='UserPicker'){el.className='cp-field';const title=document.createElement('span');title.textContent=c.title;const native=document.createElement('button');native.type='button';native.disabled=true;native.className='cp-native';native.textContent=c.placeholder+'  ⌄';el.append(title,native);}
+ else if(c.component==='Button'){el=document.createElement('button');el.type='button';el.className='cp-button '+(c.variant==='borderless'?'borderless':'');el.append(cpNode(c.child));el.addEventListener('click',()=>{const failed=(c.checks||[]).find(x=>!cpCondition(x.condition));$('code-event').textContent=failed?failed.message:JSON.stringify(cpResolve(c.action.event),null,2);});}
+ else{el.textContent='未绘制组件：'+c.component;}
+ return el;
+}
+function renderCodeCard(){const key=$('code-card-sample').value;const msgs=projectedCards[key];codeModel=structuredClone(msgs[0].createSurface.dataModel);codeComponents=Object.fromEntries(msgs[1].updateComponents.components.map(c=>[c.id,c]));$('code-card-root').replaceChildren(cpNode('root'));$('code-json').textContent=JSON.stringify(msgs,null,2);$('code-event').textContent='可以操作选择与补充，查看对应 action.context。此页不发送消息。';$('code-source').textContent=key==='coordinator'?'源码：server/internal/service/userdecision/card.go · Card':'源码：server/internal/service/a2ui/project.go · projectAsk';$('code-caveat').textContent=key==='person'?'UserPicker 由钉钉客户端提供。当前 person 投影无候选列表和补充框；此处只画入口，不模拟搜索结果。':key==='approval'?'当前代码用单选同意/驳回再提交；这里没有直接审批按钮或修改后再审。':key==='coordinator'?'现有 Coordinator 卡片为单选＋自由补充；没有“先不选”按钮。普通聊天续接属于另一条消息输入路径。':'按实际 children 顺序与 checkbox 外观绘制。只填补充也可通过此 payload 的校验；普通聊天输入不属于卡片 TextField。';}
+$('code-card-sample').addEventListener('change',renderCodeCard);renderCodeCard();switchTab('code');
+
 window.previewState=()=>({questionOrigin,inputSurface:state.inputSurface,inputAction:state.inputAction,responseText:state.responseText,feedback:{...state.feedback},scenario:state.scenario,stage:state.stage,generation:state.generation,selected:[...state.selected],reminded:state.reminded});render();renderArchitecture();
 </script>
 </body>
